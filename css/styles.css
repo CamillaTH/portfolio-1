@@ -12,8 +12,23 @@ body{
     font-size:19px
 }
 
+#logo {
+    float: left;
+}
+
+#menu, #logo {
+    line-height: 65px;
+}
+
+/* nav links */
 #menu a {
     text-decoration: none;
+}
+
+#menu a:hover {
+    background-color: rgb(174, 98, 246);
+    border-radius: 25px;
+    border: 2px solid rgb(174, 98, 246);
 }
 
 ul {
@@ -25,15 +40,22 @@ nav li {
     margin-right: 25px;
 }
 
-#hero-image {
-    height: 500px;
-    width: 100%;
-    background: url('../images/hero-image.jpg') no-repeat center center;
-}
-
+/* hero */
 #hero-wrapper {
     height: 500px;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
+
+#hero-image {
+    height: 500px;
+    width: 100%;
+    background: url('../images/hero-image.jpg') no-repeat center center;
+}
+
+/* footer */
+#footer-icons > li{
+    display: inline-block;
+}
+
