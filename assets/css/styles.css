@@ -53,7 +53,57 @@ nav li {
 #hero-image {
     height: 500px;
     width: 100%;
-    background: url('../images/hero-image.jpg') no-repeat center center;
+    background: url('/assets/images/hero-image.jpg') no-repeat center center ;
+    background-size: cover;
+    opacity: 0.7;
+}
+
+#hero-text-wrapper {
+
+    width: 230px;
+    height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+    background-color: rgba(174, 98, 246, .2);
+    bottom: 30px;
+    right: 80px;
+    position: absolute;
+    border-radius: 80px;
+}
+
+#hero-text {
+    text-align: center;
+    font-size: 150%;
+    padding-top: 25px;
+}
+
+/* Main content */
+#main-content {
+    padding-top: 20px;
+    height: 600px;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.image-container {
+  display: flex;
+  height: auto;
+  margin-top: 20px;
+}
+.image-container div {
+  flex: 1;
+}
+.image-container img {
+  max-width:100%;
+}
+
+.main-content-text {
+    text-align: center;
+    padding: 30px;
+}
+
+.main-content-text > h2 {
+    padding: 15px;
 }
 
 /* footer */
