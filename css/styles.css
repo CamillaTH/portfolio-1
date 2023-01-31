@@ -14,10 +14,12 @@ body{
 
 #logo {
     float: left;
+    margin-left: 10px;
 }
 
 #menu, #logo {
     line-height: 65px;
+    margin-right: 10px;
 }
 
 /* nav links */
@@ -55,7 +57,25 @@ nav li {
 }
 
 /* footer */
-#footer-icons > li{
-    display: inline-block;
+footer {
+    position: relative;
+    clear: both;
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin: auto;
+}
+
+.footer-icons > li{
+    display: inline;
+}
+
+.footer-icons > li > a{
+    padding: 50px;
+}
+
+.copy-right-text {
+    padding-top:30px;
+    padding-bottom: 10px;
 }
 
