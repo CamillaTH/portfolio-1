@@ -1,15 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed:ital@1&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     border: none;
 }
 
-body{
+body {
     font-family: 'Sofia Sans Extra Condensed', sans-serif;
     font-weight: 300;
     color: #202020;
-    font-size:19px
+    font-size: 19px
 }
 
 #logo {
@@ -17,7 +18,8 @@ body{
     margin-left: 10px;
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 65px;
     margin-right: 10px;
 }
@@ -52,7 +54,7 @@ nav li {
 #hero-image {
     height: 500px;
     width: 100%;
-    background: url('/assets/images/hero-image.jpg') no-repeat center center ;
+    background: url('/assets/images/hero-image.jpg') no-repeat center center;
     background-size: cover;
     opacity: 0.7;
 }
@@ -85,15 +87,17 @@ nav li {
 }
 
 .image-container {
-  display: flex;
-  height: auto;
-  margin-top: 20px;
+    display: flex;
+    height: auto;
+    margin-top: 20px;
 }
+
 .image-container div {
-  flex: 1;
+    flex: 1;
 }
+
 .image-container img {
-  max-width:100%;
+    max-width: 100%;
 }
 
 .main-content-text {
@@ -101,7 +105,7 @@ nav li {
     padding: 30px;
 }
 
-.main-content-text > h2 {
+.main-content-text>h2 {
     padding: 15px;
 }
 
@@ -117,11 +121,11 @@ footer {
     margin: auto;
 }
 
-.footer-icons > li{
+.footer-icons>li {
     display: inline;
 }
 
-.footer-icons > li > a{
+.footer-icons>li>a {
     padding: 50px;
 }
 
@@ -141,7 +145,7 @@ footer {
 /* applies bg color to all buttons */
 input[type=submit] {
     background-color: rgba(174, 98, 246, .5);
-  }
+}
 
 /* applies hover effect to all buttons */
 input[type=submit]:hover {
@@ -149,24 +153,29 @@ input[type=submit]:hover {
 }
 
 .copy-right-text {
-    padding-top:30px;
+    padding-top: 30px;
     padding-bottom: 10px;
 }
 
 
 /* signup form, login form, newsletter*/
 
-.signup-form-section, .login-form-section {
+.signup-form-section,
+.login-form-section {
     text-align: center;
     padding-top: 80px;
     padding-bottom: 80px;
 }
 
 
-.signup-form .login-form .newsletter-conatiner, 
-input[type=text], input[type=submit], input[type=email], input[type=password], #city {
+.signup-form .login-form .newsletter-conatiner,
+input[type=text],
+input[type=submit],
+input[type=email],
+input[type=password],
+#city {
     width: 50%;
-    padding: 15px; 
+    padding: 15px;
     margin: 10px 0;
     display: inline-block;
     border: 1px solid #202020;
@@ -177,35 +186,46 @@ input[type=text], input[type=submit], input[type=email], input[type=password], #
 /*responsive */
 
 /*From 900px wide and down*/
-@media screen and (max-width: 900px){
+@media screen and (max-width: 900px) {
     .footer-icons i {
         font-size: 2.4em;
     }
-    .footer-icons > li > a {
+
+    .footer-icons>li>a {
         padding: 40px;
-      }
-      .signup-form .login-form .newsletter-conatiner,
-       input[type=text], input[type=submit], input[type=email], input[type=password], #city 
-    {
+    }
+
+    .signup-form .login-form .newsletter-conatiner,
+    input[type=text],
+    input[type=submit],
+    input[type=email],
+    input[type=password],
+    #city {
         width: 70%;
     }
 }
 
 /*From 500px wide and down*/
-@media screen and (max-width: 500px){
+@media screen and (max-width: 500px) {
     .footer-icons i {
         font-size: 1.5em;
     }
-    
-    .footer-icons > li > a {
-      padding: 25px;
+
+    .footer-icons>li>a {
+        padding: 25px;
     }
 
     .signup-form .login-form .newsletter-conatiner,
-     input[type=text], input[type=submit], input[type=email], input[type=password], #city {
+    input[type=text],
+    input[type=submit],
+    input[type=email],
+    input[type=password],
+    #city {
         width: 90%;
     }
-    .signup-form-section, .login-form-section   {
+
+    .signup-form-section,
+    .login-form-section {
         padding-bottom: 40px;
     }
 }
