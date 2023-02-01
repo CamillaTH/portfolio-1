@@ -24,39 +24,32 @@
                 <a href="log-in.html">Log In</a>
             </li>
             <li>
-                <a href="index.html" class="active">Home</a>
+                <a href="index.html">Home</a>
             </li>
         </ul>
     </nav>
     </header>
-    <section id="hero-wrapper">
-        <div id="hero-image"></div>
-        <div id="cover-text">
-            <h2>Girls meet up</h2>
-        </div>
-        <div id="hero-text-wrapper">
-            <div id="hero-text">
-                <h2>Stockholm</h2>
-                <h2>Uppsala</h2>
-            </div>
-        </div>
-    </section>
+<body>
+    <section class="form-section">
+        <form method="post" action="#"
+            class="login-form">
+            <h2>Let's sign up!</h2>
+            <label for="uname">User Name</label>
+            <input id="uname" name="user_name" type="text"
+            class="text-input" placeholder="Enter Username" required>
 
-    <section id="main-content">
-        <div class="image-container">
-            <div>
-              <img src="/assets/images/main-conent-img-1.jpg">
-            </div>
-             <div>
-               <img src="/assets/images/main-conent-img-2.jpg">
-             </div>
-           </div>
-           <div class="main-content-text">
-                <h2>Meet up with new friends</h2>
-                <p>Sign up for the funniest friends community! 
-                    We get together trough different activities like wine tasting, hikes, training trips and much more!</p>
-           </div>
+            <label for="psw">Password</label>
+            <input id="lname" name="last_name" type="text"
+            class="text-input"placeholder="Enter Password" required>
+
+            <label for="email">Email Address</label>
+            <input id="email" name="email_address" type="email"
+            class="text-input" required>
+
+            <input class="button" type="submit" value="Log In!">
+            </form>   
     </section>
+    <title>Document</title>
     <footer>
         <ul class="footer-icons">
             <li>
@@ -87,4 +80,6 @@
 </body>
     <!-- font awsome-->
     <script src="https://kit.fontawesome.com/52e37cb4eb.js" crossorigin="anonymous"></script>
+</html>
+</body>
 </html>
