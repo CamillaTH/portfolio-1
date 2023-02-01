@@ -160,7 +160,8 @@ input[type=submit]:hover {
 }
 
 
-.signup-form .login-form .newsletter-conatiner input[type=text], input[type=submit], input[type=email], input[type=password], #city {
+.signup-form .login-form .newsletter-conatiner, 
+input[type=text], input[type=submit], input[type=email], input[type=password], #city {
     width: 50%;
     padding: 15px; 
     margin: 10px 0;
@@ -180,8 +181,8 @@ input[type=submit]:hover {
     .footer-icons > li > a {
         padding: 40px;
       }
-      .signup-form .login-form .newsletter-conatiner
-    input[type=text], input[type=submit], input[type=email], input[type=password], #city 
+      .signup-form .login-form .newsletter-conatiner,
+       input[type=text], input[type=submit], input[type=email], input[type=password], #city 
     {
         width: 70%;
     }
@@ -197,9 +198,11 @@ input[type=submit]:hover {
       padding: 25px;
     }
 
-    .signup-form .login-form .newsletter-conatiner 
-    input[type=text], input[type=submit], input[type=email], input[type=password], #city 
-    {
+    .signup-form .login-form .newsletter-conatiner,
+     input[type=text], input[type=submit], input[type=email], input[type=password], #city {
         width: 90%;
+    }
+    .signup-form-section, .login-form-section   {
+        padding-bottom: 40px;
     }
 }
