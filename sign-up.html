@@ -21,7 +21,7 @@
                 <a href="sign-up.html">Sign Up</a>
             </li>
             <li>
-                <a href="#">Log In</a>
+                <a href="log-in.html">Log In</a>
             </li>
             <li>
                 <a href="index.html">Home</a>
@@ -30,24 +30,19 @@
     </nav>
     </header>
 <body>
-    <section class="form-section">
-        <form method="post" action="#"
-    class="signup-form">
-    <h2>Let's sign up!</h2>
-    <label for="fname">First Name</label>
-    <input id="fname" name="first_name" type="text"
-    class="text-input" required>
-    <label for="lname">Last Name</label>
-    <input id="lname" name="last_name" type="text"
-    class="text-input" required>
-    <label for="email">Email Address</label>
-    <input id="email" name="email_address" type="email"
-    class="text-input" required>
-
-    <input class="join-button" type="submit" value="Sign up!">
-    </form>   
+    <section class="signup-form-section">
+        <form method="post" action="#"class="signup-form">
+            <h2>Let's sign up!</h2>
+            <input id="fname" name="first_name" placeholder="First name" type="text" class="text-input" required>
+            <input id="lname" name="last_name" placeholder="Last name" type="text" class="text-input" required>
+            <input id="email" name="email_address" placeholder="Email address" type="email" class="text-input" required>
+            <select id="city" name="city">
+                <option value="stockholm">Stockholm</option>
+                <option value="uppsala">Uppsala</option>
+            </select>
+            <input class="join-button" type="submit" value="Sign up!">
+        </form>   
     </section>
-    <title>Document</title>
     <footer>
         <ul class="footer-icons">
             <li>
@@ -66,7 +61,7 @@
                   <h2>Sign up for our newsletter!</h2>
                 </div>
                 <div>
-                  <input type="text" placeholder="Email address" name="mail" required>            
+                  <input type="email" placeholder="Email address" name="mail" required>            
                 </div>
                 <div>
                   <input type="submit" value="Subscribe">
