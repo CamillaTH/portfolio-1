@@ -18,20 +18,36 @@
     <nav>
         <ul id="menu">
             <li>
-                <a href="#">Sign Up</a>
+                <a href="sign-up.html">Sign Up</a>
             </li>
             <li>
                 <a href="#">Log In</a>
             </li>
             <li>
-                <a href="index.html" class="active">Home</a>
+                <a href="index.html">Home</a>
             </li>
         </ul>
     </nav>
     </header>
-    <title>Document</title>
-</head>
 <body>
+    <section class="form-section">
+        <form method="post" action="#"
+    class="signup-form">
+    <h2>Let's sign up!</h2>
+    <label for="fname">First Name</label>
+    <input id="fname" name="first_name" type="text"
+    class="text-input" required>
+    <label for="lname">Last Name</label>
+    <input id="lname" name="last_name" type="text"
+    class="text-input" required>
+    <label for="email">Email Address</label>
+    <input id="email" name="email_address" type="email"
+    class="text-input" required>
+
+    <input class="join-button" type="submit" value="Sign up!">
+    </form>   
+    </section>
+    <title>Document</title>
     <footer>
         <ul class="footer-icons">
             <li>
@@ -44,6 +60,19 @@
                 <a href="https://facebook.com" target="_blank" aria-label="see updated on facebook" rel="noopener"> <i class="fa-brands fa-facebook-f fa-3x"></i></a>
             </li>
         </ul>
+        <div class="newsletter-conatiner">
+            <form action="#">
+                <div>
+                  <h2>Sign up for our newsletter!</h2>
+                </div>
+                <div>
+                  <input type="text" placeholder="Email address" name="mail" required>            
+                </div>
+                <div>
+                  <input type="submit" value="Subscribe">
+                </div>
+              </form>
+        </div>
         <p class="copy-right-text">Copyright © Girls meetup 2023</p>
     </footer>
 </body>
