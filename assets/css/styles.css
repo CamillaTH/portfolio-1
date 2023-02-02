@@ -59,6 +59,21 @@ nav li {
     opacity: 0.7;
 }
 
+#login-image-wrapper {
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#login-image {
+    height: 500px;
+    width: 100%;
+    background: url('/assets/images/loginpage-image.jpg') no-repeat center center;
+    background-size: cover;
+    opacity: 0.7;
+}
+
 #hero-text-wrapper {
 
     width: 230px;
@@ -107,18 +122,6 @@ nav li {
 .main-content-text>h2 {
     padding: 15px;
 }
-
-
-
-/*footer 
-footer {
-    position: relative;
-    clear: both;
-    text-align: center;
-    display: block;
-    width: 100%;
-    margin: auto;
-}*/ 
 
 footer {
     clear: both;
@@ -176,8 +179,13 @@ input[type=submit]:hover {
 .signup-form-section,
 .login-form-section {
     text-align: center;
-    padding-top: 80px;
+    padding-top: 20px;
     padding-bottom: 80px;
+}
+
+/*overides above padding value for signup section */
+.signup-form-section {
+    padding-top: 125px;
 }
 
 
@@ -243,8 +251,7 @@ input[type=password],
         width: 90%;
     }
 
-    .signup-form-section,
-    .login-form-section {
-        padding-bottom: 40px;
+    .signup-form-section {
+        padding-top: 125px;
     }
 }
