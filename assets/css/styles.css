@@ -254,4 +254,8 @@ input[type=password],
     .signup-form-section {
         padding-top: 125px;
     }
+
+    #menu {
+        font-size:16px;
+    }
 }
