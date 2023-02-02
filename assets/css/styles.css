@@ -81,7 +81,6 @@ nav li {
 /* Main content */
 #main-content {
     padding-top: 20px;
-    height: 600px;
     width: 85%;
     margin: 0 auto;
 }
@@ -111,7 +110,7 @@ nav li {
 
 
 
-/* footer */
+/*footer 
 footer {
     position: relative;
     clear: both;
@@ -119,6 +118,16 @@ footer {
     display: block;
     width: 100%;
     margin: auto;
+}*/ 
+
+footer {
+    clear: both;
+    position: relative;
+    margin-top: 60px;
+}
+
+.footer-icons {
+    text-align: center;
 }
 
 .footer-icons>li {
@@ -127,6 +136,10 @@ footer {
 
 .footer-icons>li>a {
     padding: 50px;
+}
+
+.copy-right-text {
+    text-align: center;
 }
 
 /* newsletter secion */
@@ -187,6 +200,9 @@ input[type=password],
 
 /*From 900px wide and down*/
 @media screen and (max-width: 900px) {
+    footer {
+        margin-top: 20px;
+    }
     .footer-icons i {
         font-size: 2.4em;
     }
@@ -207,6 +223,9 @@ input[type=password],
 
 /*From 500px wide and down*/
 @media screen and (max-width: 500px) {
+    footer {
+        margin-top: 20px;
+    }
     .footer-icons i {
         font-size: 1.5em;
     }
