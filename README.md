@@ -27,6 +27,8 @@ In Gitpod you have superuser security privileges by default. Therefore you do no
 Devices 
 background-image: url('/images/responsive.png');
 
+<img src="images/responsive.png" alt="responsive" title="responsive">
+
 
 
 Girs meet ut!
