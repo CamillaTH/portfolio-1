@@ -72,6 +72,7 @@ links in the footer to social media channels
 
 Lighthouse score
 
+background-image: url('/image/lighthousereport.png');
 
 Validator Testing
 no bugs at the validator tool for html and css  
