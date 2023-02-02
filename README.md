@@ -65,8 +65,7 @@ contact section
 links in the footer to social media channels
 
 Lighthouse score
-
-background-image: url('/images/lighthousereport.png');
+<img src="images/lighthousereport.png" alt="lighthousereport" title="lighthousereport">
 
 Validator Testing
 no bugs at the validator tool for html and css  
