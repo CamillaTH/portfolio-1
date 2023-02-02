@@ -24,8 +24,8 @@ Another blue button should appear to click: _Open Browser_.
 
 In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-Devices 
-background-image: url('/images/responsive.png');
+ 
+<b>Devices</b>
 
 <img src="images/responsive.png" alt="responsive" title="responsive">
 
@@ -45,33 +45,37 @@ This has been a great opportunity to network with new friends and also
 support companies who had a hard time during covid.
 Today we are 10 000 members och and our spots are filled fast when we arrange an event.
 
-Features
+
+<b>Features</b>
 login to the page and signup for the community and signup for newletter.
 
-The header
+<b>The header</b>
 a logo that take you back to homepage when clicked and a menu with home button, button to login page and button go signup page.
 
-main section
+<b>main section</b>
 an hero image 
 info text about girls meetup
 
-The Sign Up Form
+<b>The Sign Up Form</b>
 form that signs up for girls meetup when you can choose city etc.
 
-Sign in section
+
+<b>Sign in section</b>
 sign in to the community
 
-contact section
+
+<b>contact section</b>
 links in the footer to social media channels
 
-Lighthouse score
+
+<b>Lighthouse score</b>
 <img src="images/lighthousereport.png" alt="lighthousereport" title="lighthousereport">
 
-Validator Testing
+<b>Validator Testing</b>
 no bugs at the validator tool for html and css  
 
-Deployment
+<b>Deployment</b>
 site is live at : https://camillath.github.io/portfolio-1/
 
-Credits
+<b>Credits</b>
 the inspo for this site was taking from love running project
