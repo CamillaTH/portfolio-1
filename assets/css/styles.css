@@ -262,6 +262,6 @@ input[type=password],
         font-size:16px;
     }
     nav li {
-        margin-right: 8px;
+        margin-right:0px;
     }
 }
