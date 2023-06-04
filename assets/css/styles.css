@@ -145,6 +145,11 @@ footer {
 
 .footer-icons>li>a {
     padding: 50px;
+    color: rgba(174, 98, 246, .5); 
+}
+
+.footer-icons>li>a:hover {
+    color: rgb(174, 98, 246);
 }
 
 .copy-right-text {
