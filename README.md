@@ -55,7 +55,7 @@ __Sign in section__
 - An form that let the user sign in to the community. 
 - Validation is applied so if not the email field  are filled with email the user get information that input field needs to be filled and if the input is not an valid email the user get information about that. And if password is not filled the user get information about that.
 
-![alt text](assets/images/readmeSignuppage.png)
+![alt text](assets/images/readmeLoginpage.png)
 
 
 __Footer section__
