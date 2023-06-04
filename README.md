@@ -1,39 +1,11 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome CamillaTH,
-
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
-
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
-
-## Gitpod Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
- 
-<b>Devices</b>
-
-<img src="images/responsive.png" alt="responsive" title="responsive">
+ <b>Devices</b>
+![alt text](images/responsive.png)
 
 
+<b>Girls meet out!</b>
 
-Girs meet ut!
-Welcome to the funniest friends community! We started this community when covid and restriction
-limited us to live the life like before. We couldn't travel like before,
+Welcome to the funniest friends community! We started this community when covid and restriction limited us to live the life like before. We couldn't travel like before,
 go to the gym, theater, cinema and so on.
 We had to change our way to live. So we came up with the idea to create a group on Facebook, 
 with some suggestions to meet covid-friendly
@@ -45,31 +17,37 @@ This has been a great opportunity to network with new friends and also
 support companies who had a hard time during covid.
 Today we are 10 000 members och and our spots are filled fast when we arrange an event.
 
-
 <b>Features</b>
+
 login to the page and signup for the community and signup for newletter.
 
 <b>The header</b>
+
 a logo that take you back to homepage when clicked and a menu with home button, button to login page and button go signup page.
 
 <b>main section</b>
+
 an hero image 
 info text about girls meetup
 
 <b>The Sign Up Form</b>
+
 form that signs up for girls meetup when you can choose city etc.
 
 
 <b>Sign in section</b>
+
 sign in to the community
 
 
 <b>contact section</b>
+
 links in the footer to social media channels
 
 
 <b>Lighthouse score</b>
-<img src="images/lighthousereport.png" alt="lighthousereport" title="lighthousereport">
+
+![alt text](images/lighthousereport.png)
 
 <b>Validator Testing</b>
 no bugs at the validator tool for html and css  
