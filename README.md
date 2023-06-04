@@ -24,25 +24,51 @@ login to the page and signup for the community and signup for newletter.
 
 __Header__
 
-a logo that take you back to homepage when clicked and a menu with home button, button to login page and button go signup page.
+- A logo that take you back to homepage when clicked. A menu with "home" that navigates to homepage and "login" that navigates to login page and "sign up" that navigates to signup page. When hovering over each navlink an hover effect is applied. An "active" effect that shows and border what page the user are on.
+
+![alt text](assets/images/readmeHeader.png)
+
+__Hero section__
+
+- An hero image with an overlaying image with information
+
+![alt text](assets/images/readmeHeroImage.png)
+
 
 __Main section__
 
-an hero image 
-info text about girls meetup
+- Images with info text about girls meetup with icons
+
+![alt text](assets/images/readmeHomepageMaincontent.png)
+
 
 __Sign up Form__
 
-form that signs up for girls meetup when you can choose city etc.
+- Form that signs up for girls meetup when you can choose city etc. 
+- Validation is applied so if not all input fields are filled with information the user get information what fields left to fill to proceed. And if the input is not an valid email the user get information about that.
+
+![alt text](assets/images/readmeSignuppage.png)
 
 
 __Sign in section__
 
-sign in to the community
+- An form that let the user sign in to the community. 
+- Validation is applied so if not the email field  are filled with email the user get information that input field needs to be filled and if the input is not an valid email the user get information about that. And if password is not filled the user get information about that.
 
-__Contact section__
+![alt text](assets/images/readmeSignuppage.png)
 
-links in the footer to social media channels
+
+__Footer section__
+
+- links in the footer to social media channels and a newletter signup section where the user can fill email to get newletter. 
+- Validation is applied so if not the email field  are filled with email the user get information that input field needs to be filled and if the input is not an valid email the user get information about that.
+
+![alt text](assets/images/readmeFooter.png)
+
+### Unimplemented Features
+
+- Hero carousel that shows slidesshow of multiple images
+- Google maps section thats shows on map where the events are located
 
 ## Testing
 
