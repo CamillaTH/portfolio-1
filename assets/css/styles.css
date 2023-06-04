@@ -43,6 +43,11 @@ nav li {
     margin-right: 25px;
 }
 
+.active {
+    background-color: rgba(174, 98, 246, .5);
+    border-radius: 15px;
+}
+
 /* hero */
 #hero-wrapper {
     height: 500px;
